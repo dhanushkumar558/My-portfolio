@@ -552,10 +552,8 @@ a:focus {
     gap: 70px;
     grid-template-columns: 50px 50px 50px;
     grid-template-rows: 50px 50px 50px;
-    margin-left: 50px;
-    margin-top: 30px;
-  
- 
+   
+ margin-top: 30px;
 
 }
 
@@ -577,6 +575,20 @@ a:focus {
     justify-content: center;
     align-items: center;
     text-align: center;
+   }
+   .section-header .p 
+   {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+   }
+   .section-header .techs
+   {
+    display: grid;
+    justify-content: center;
+
    }
 }
 

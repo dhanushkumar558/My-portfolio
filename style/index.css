@@ -561,7 +561,23 @@ a:focus {
     .about .about-content {
         padding: 45px 15px 0 15px;
     }
+    
 }
+.section-header .p 
+   {
+
+    margin-left: -150px;
+    margin-bottom: 10px;
+   }
+   .section-header .a
+   {
+    margin-left: 40px;
+    margin-bottom: 10px;
+   }
+   .section-header .techs
+   {
+    margin-left: 70px;
+   }
 @media (max-width: 575.98px)
 {
    .about-img
@@ -582,12 +598,24 @@ a:focus {
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin-left: 40px;
+    
+   }
+   .section-header .a 
+   {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     
    }
    .section-header .techs
    {
     display: grid;
     justify-content: center;
+    margin-left: 0;
+   
+
 
    }
 }
